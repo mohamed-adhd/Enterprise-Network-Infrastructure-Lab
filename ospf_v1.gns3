@@ -1,0 +1,171 @@
+{
+    "auto_close": true,
+    "auto_open": false,
+    "auto_start": false,
+    "created_by": "admin",
+    "drawing_grid_size": 25,
+    "grid_size": 75,
+    "name": "ospf_v1",
+    "project_id": "139f3259-d964-4a7a-8e3c-1b986572da0d",
+    "revision": 10,
+    "scene_height": 1000,
+    "scene_width": 2000,
+    "show_grid": false,
+    "show_interface_labels": false,
+    "show_layers": false,
+    "snap_to_grid": false,
+    "supplier": null,
+    "topology": {
+        "computes": [],
+        "drawings": [],
+        "links": [
+            {
+                "filters": {},
+                "link_id": "a0571f7c-bbf5-430d-864c-5bd995320716",
+                "link_style": {
+                    "bezier_curviness": null,
+                    "color": "#000000",
+                    "control_offset": null,
+                    "flowchart_roundness": null,
+                    "link_type": null,
+                    "type": 1,
+                    "width": 2
+                },
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "eth0",
+                            "x": 69,
+                            "y": 30
+                        },
+                        "node_id": "4093ab91-596a-4780-b400-1afbc362da96",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "eth0",
+                            "x": -9,
+                            "y": 29
+                        },
+                        "node_id": "e18d687d-436f-41f3-94fa-6c150f99f428",
+                        "port_number": 0
+                    }
+                ],
+                "show_filters_icon": true,
+                "suspend": false
+            }
+        ],
+        "nodes": [
+            {
+                "aux": null,
+                "aux_type": "none",
+                "compute_id": "local",
+                "console": 5000,
+                "console_auto_start": false,
+                "console_type": "telnet",
+                "custom_adapters": [],
+                "first_port_name": null,
+                "height": 60,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "site1-router",
+                    "x": -9,
+                    "y": -25
+                },
+                "locked": false,
+                "name": "site1-router",
+                "node_id": "4093ab91-596a-4780-b400-1afbc362da96",
+                "node_type": "docker",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "adapters": 4,
+                    "builtin": false,
+                    "console_http_path": "/",
+                    "console_http_port": 80,
+                    "console_resolution": "1024x768",
+                    "container_id": "5c49516bc68aeec7186c937abb4500e4eb93d47a45385058a1ed56ee4ba56322",
+                    "cpus": 0.0,
+                    "created_at": "2026-07-07T19:11:58",
+                    "environment": "",
+                    "extra_hosts": "",
+                    "extra_volumes": [],
+                    "image": "frrouting/frr:latest",
+                    "mac_address": "02:42:93:ab:91:00",
+                    "memory": 0,
+                    "start_command": "/bin/bash",
+                    "updated_at": "2026-07-07T19:11:58",
+                    "usage": ""
+                },
+                "symbol": ":/symbols/affinity/square/blue/docker.svg",
+                "tags": [],
+                "template_id": "949cca94-54e0-425d-b15f-236f76fe8269",
+                "width": 60,
+                "x": -699,
+                "y": -84,
+                "z": 1
+            },
+            {
+                "aux": null,
+                "aux_type": "none",
+                "compute_id": "local",
+                "console": 5001,
+                "console_auto_start": false,
+                "console_type": "telnet",
+                "custom_adapters": [],
+                "first_port_name": null,
+                "height": 60,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "site2-router",
+                    "x": -9,
+                    "y": -25
+                },
+                "locked": false,
+                "name": "site2-router",
+                "node_id": "e18d687d-436f-41f3-94fa-6c150f99f428",
+                "node_type": "docker",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "adapters": 4,
+                    "builtin": false,
+                    "console_http_path": "/",
+                    "console_http_port": 80,
+                    "console_resolution": "1024x768",
+                    "container_id": "e9c3e00d9b7ee5aca0f8228ff5da2cf2aeb3825d289fea05fe0b61561368bddf",
+                    "cpus": 0.0,
+                    "created_at": "2026-07-07T19:11:58",
+                    "environment": "",
+                    "extra_hosts": "",
+                    "extra_volumes": [],
+                    "image": "frrouting/frr:latest",
+                    "mac_address": "02:42:8d:68:7d:00",
+                    "memory": 0,
+                    "start_command": "/bin/bash",
+                    "updated_at": "2026-07-07T19:11:58",
+                    "usage": ""
+                },
+                "symbol": ":/symbols/affinity/square/blue/docker.svg",
+                "tags": [],
+                "template_id": "949cca94-54e0-425d-b15f-236f76fe8269",
+                "width": 60,
+                "x": -237,
+                "y": -83,
+                "z": 1
+            }
+        ]
+    },
+    "type": "topology",
+    "variables": null,
+    "version": "3.1.0a3",
+    "zoom": 100
+}
