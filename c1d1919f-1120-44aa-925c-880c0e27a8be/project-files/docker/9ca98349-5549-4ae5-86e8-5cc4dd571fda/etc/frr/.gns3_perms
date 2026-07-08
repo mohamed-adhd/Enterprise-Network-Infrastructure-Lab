@@ -1,6 +1,7 @@
 644:100:101:/etc/frr/daemons
 644:100:101:/etc/frr/ospfd.conf
 644:100:101:/etc/frr/vtysh.conf
+600:100:101:/etc/frr/staticd.conf
 644:100:101:/etc/frr/.gns3_perms
 644:100:101:/etc/frr/zebra.conf
 755:100:101:/etc/frr
