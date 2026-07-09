@@ -469,6 +469,47 @@
                 ],
                 "show_filters_icon": true,
                 "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "d423ed65-32f3-4044-8f65-2996f10b67df",
+                "link_style": {
+                    "bezier_curviness": null,
+                    "color": "#000000",
+                    "control_offset": null,
+                    "flowchart_roundness": null,
+                    "link_type": null,
+                    "type": 1,
+                    "width": 2
+                },
+                "nodes": [
+                    {
+                        "adapter_number": 3,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "eth3",
+                            "x": 70,
+                            "y": 25
+                        },
+                        "node_id": "87193ab0-babb-442d-9ab5-810325c2965a",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 3,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "eth3",
+                            "x": -9,
+                            "y": 24
+                        },
+                        "node_id": "782bbd04-db1e-45b0-a76e-adb6d26c032c",
+                        "port_number": 0
+                    }
+                ],
+                "show_filters_icon": true,
+                "suspend": false
             }
         ],
         "nodes": [

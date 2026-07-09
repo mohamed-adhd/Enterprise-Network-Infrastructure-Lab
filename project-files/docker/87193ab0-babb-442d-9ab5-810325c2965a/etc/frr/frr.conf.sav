@@ -1,9 +1,11 @@
 frr version 8.4_git
 frr defaults traditional
 hostname site1-router
+no ipv6 forwarding
+service integrated-vtysh-config
+!
 password zebra
 enable password zebra
-no ipv6 forwarding
 !
 interface eth0
  ip address 10.0.0.1/30
@@ -19,16 +21,12 @@ exit
 !
 interface gre1
  ip address 172.16.0.1/30
- ip ospf network point-to-point
 exit
 !
 router ospf
  ospf router-id 1.1.1.1
- network 10.0.0.0/30 area 0
  network 172.16.0.0/30 area 0
  network 192.168.1.0/24 area 0
  network 192.168.2.0/24 area 0
 exit
-!
-line vty
 !
