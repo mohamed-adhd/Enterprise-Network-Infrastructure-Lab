@@ -1,0 +1,11 @@
+644:100:101:/etc/frr/daemons
+640:100:101:/etc/frr/ospfd.conf
+640:100:101:/etc/frr/frr.conf.sav
+640:100:101:/etc/frr/vtysh.conf
+640:100:101:/etc/frr/nhrpd.conf
+640:100:101:/etc/frr/staticd.conf
+644:100:101:/etc/frr/.gns3_perms
+640:100:101:/etc/frr/frr.conf
+644:100:101:/etc/frr/gre.env
+640:100:101:/etc/frr/zebra.conf
+755:100:101:/etc/frr
