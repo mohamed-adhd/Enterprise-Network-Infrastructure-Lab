@@ -204,10 +204,8 @@ Expected behavior: endpoints behind Site 1 should be able to reach endpoints beh
 
 ## Why I Built This
 
-> at some point of my carrer i will have to get in contact with networking , wether it was backend developement, network automatation , or embedded system , so i wanted to catch a glance at it . well i catched more than a glance , but still it was a fun repo
-```
+At some point in my career, I will have to get in contact with networking—whether it's backend development, network automation, or embedded systems—so I wanted to catch a glimpse of it. Well, I caught more than a glimpse, but still, it was a fun repo.
 
----
 
 <div align="center">
   <sub>Built with GNS3, FRRouting, OSPFv2, GRE, Linux XFRM/IPsec, Docker router nodes, and VPCS endpoints.</sub>
