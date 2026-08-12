@@ -204,7 +204,7 @@ Expected behavior: endpoints behind Site 1 should be able to reach endpoints beh
 
 ## Why I Built This
 
-At some point in my career, I will have to get in contact with networking—whether it's backend development, network automation, or embedded systems—so I wanted to catch a glimpse of it. Well, I caught more than a glimpse, but still, it was a fun repo.
+At some point in my career, I will have to get in contact with networking—whether it's back-end development, network automation, or embedded systems—so I wanted to catch a glimpse of it. Well, I caught more than a glimpse, but still, it was a fun repo.
 
 
 <div align="center">
