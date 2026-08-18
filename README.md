@@ -188,9 +188,6 @@ ping 192.168.3.11
 ping 192.168.4.11
 trace 192.168.4.12
 ```
-
-Expected behavior: endpoints behind Site 1 should be able to reach endpoints behind Site 2 after the routers form OSPF adjacency over the GRE path and learn the remote LAN prefixes.
-
 ## What This Lab Proves
 
 | Concept | Evidence in the repo |
